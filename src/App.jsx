@@ -51,7 +51,11 @@ function App() {
               <p className="font-black">{selectedProduct.name} Added!</p>
             </div>
             <p className="mb-4">Price: {selectedProduct.price}</p>
-            <img src={selectedProduct.image[`clothing${selectedProduct.id}`]} alt={selectedProduct.name} className="w-full mb-4" />
+            <img src={selectedProduct.image} alt={selectedProduct.name} className="w-full mb-4" />
+
+
+           
+
             <button
               className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 w-full"
               onClick={() => setIsModalOpen(false)}
