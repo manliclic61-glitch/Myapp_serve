@@ -1,3 +1,4 @@
+@import "tailwindcss";
 :root {
   /* 🎨 Colors */
   --bg: #0B1220; /* dark blue */
