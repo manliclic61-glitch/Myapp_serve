@@ -1,0 +1,20 @@
+:root {
+  /* 🎨 Colors */
+  --bg: #0B1220; /* dark blue */
+  --pattern-fg: rgba(255, 255, 255, 0.06); /* soft white lines */
+
+  /* Base */
+  background-color: var(--bg);
+  color: white;
+
+  /* Pattern */
+  background-image: repeating-linear-gradient(
+    315deg,
+    var(--pattern-fg) 0,
+    var(--pattern-fg) 1px,
+    transparent 0,
+    transparent 50%
+  );
+
+  background-size: 10px 10px;
+}
