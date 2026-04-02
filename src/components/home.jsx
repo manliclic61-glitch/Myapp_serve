@@ -1,9 +1,14 @@
 import hero_1_logo_doodle from "../assets/hero_1_logo_doodle.jpg";
 import logo_2_hero from "../assets/logo_2_hero.png";
+
+
+
 export default function Home() {
+
   return (
 
     <>
+
 
 
       <div
@@ -14,9 +19,11 @@ export default function Home() {
           <img
             src={logo_2_hero}
             alt="Logo"
-            className="h-[200px] object-contain"
+            className="h-full object-contain"
           />
         </div>
+
+
       </div>
       <div className="p-5 m-5 ">
 
@@ -25,11 +32,18 @@ export default function Home() {
         <p className="text-gray-400 mb-6">Your one-stop shop for stylish apparel</p>
         <p className="text-gray-400">Discover our latest collection and find the perfect piece for your style.</p>
 
+
+
+
+
+
+
+
       </div>
 
 
-
     </>
+
 
   );
 }
